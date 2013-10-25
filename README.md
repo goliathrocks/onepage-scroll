@@ -43,23 +43,6 @@ $(".main").onepage_scroll({
 ````
 And that's it. Now, your website should work the same way Apple's iPhone 5S website does. You should be able to swipe up/down as well (thanks to [Eike Send](https://github.com/eikes) for his swipe events!) when viewing your website on mobile phones.
 
-## Public Methods
-You can also trigger page move programmatically as well:
-
-### $.fn.moveUp()
-This method allows you to move the page up by one. This action is equivalent to scrolling up/swiping down.
-
-````javascript
-  $(".main").moveUp();
-````
-
-### $.fn.moveDown()
-This method allows you to move the page down by one. This action is equivalent to scrolling down/swiping up.
-
-````javascript
-  $(".main").moveDown();
-````
-
 ## Callbacks
 You can use callbacks to perform actions before or after the page move.
 
