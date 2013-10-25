@@ -1,0 +1,26 @@
+{
+  "name": "onepage-scroll",
+  "version": "1.2.0",
+  "homepage": "https://github.com/jeduan/onepage-scroll",
+  "authors": [
+    "Pete R <peachananr@gmail.com>",
+    "Jeduan Cornejo <jeduan@gmail.com>"
+  ],
+  "description": "Create an Apple-like one page scroller website (iPhone 5S website) with One Page Scroll plugin",
+  "main": [
+    "onepage-scroll.js",
+    "onepage-scroll.css"
+  ],
+  "keywords": [
+    "scroll",
+    "jquery plugin",
+    "responsive"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
