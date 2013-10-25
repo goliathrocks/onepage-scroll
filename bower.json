@@ -1,6 +1,6 @@
 {
   "name": "onepage-scroll",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "homepage": "https://github.com/jeduan/onepage-scroll",
   "authors": [
     "Pete R <peachananr@gmail.com>",
@@ -8,8 +8,8 @@
   ],
   "description": "Create an Apple-like one page scroller website (iPhone 5S website) with One Page Scroll plugin",
   "main": [
-    "onepage-scroll.js",
-    "onepage-scroll.css"
+    "dist/onepage-scroll.js",
+    "dist/onepage-scroll.css"
   ],
   "keywords": [
     "scroll",
@@ -21,7 +21,8 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "Demo"
   ],
   "dependencies": {
     "hammerjs": "~1.0.5"
