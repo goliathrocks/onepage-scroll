@@ -27,6 +27,7 @@
     keyboard: true,
     beforeMove: null,
     afterMove: null,
+    afterInit: null,
     loop: false
   }
 
@@ -148,7 +149,10 @@
         e.preventDefault();
       });
     }
-    return false;
+
+    if (typeof settings.afterInit === 'function') {
+      settings.afterInit.call(this)
+    }
 
   }
 
