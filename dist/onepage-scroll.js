@@ -28,6 +28,7 @@
     beforeMove: null,
     afterMove: null,
     afterInit: null,
+    quietTime: 600,
     loop: false
   }
 
@@ -159,7 +160,7 @@
   OnepageScroll.prototype.move = function(direction) {
     var settings = this.settings,
         index, nextIndex, $next,
-        minTime = settings.animationTime + 600
+        minTime = settings.animationTime + settings.quietTime
 
     if (Date.now() <= (this.lastAnimation + minTime)) {
       return
