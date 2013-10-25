@@ -24,7 +24,10 @@ module.exports = function(grunt) {
     },
     uglify: {
       dist: {
-        src: '<%= concat.dist.dest %>',
+        src: [
+          'bower_components/hammerjs/dist/jquery.hammer.js',
+          '<%= concat.dist.dest %>',
+        ],
         dest: 'dist/<%= pkg.name %>.min.js'
       }
     },
