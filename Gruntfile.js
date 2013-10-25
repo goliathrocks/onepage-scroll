@@ -32,8 +32,13 @@ module.exports = function(grunt) {
       demo: {
         expand: true,
         cwd: 'dist/',
-        src: ['**'],
+        src: ['onepage-scroll.css', 'onepage-scroll.js'],
         dest: 'Demo/'
+      },
+      hammer: {
+        files: {
+          'Demo/jquery.hammer.js' : 'bower_components/hammerjs/dist/jquery.hammer.js'
+        }
       }
     },
     jshint: {
